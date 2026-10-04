@@ -463,7 +463,7 @@ function getArcConfig() {
     const escrowContractAddress = ("TURBOPACK compile-time value", "0x84141727973c3A74844a51c058f199A82F12464f") || process.env.ESCROW_CONTRACT_ADDRESS;
     return {
         chainId: ARC_CHAIN_ID,
-        rpcUrl: process.env.NEXT_PUBLIC_ARC_RPC_URL || process.env.ARC_RPC_URL || ARC_RPC_URL,
+        rpcUrl: ("TURBOPACK compile-time value", "https://arc-mainnet.g.alchemy.com/v2/alch_0r9wEu1L4Sc0IH4Gf04eZ") || process.env.ARC_RPC_URL || ARC_RPC_URL,
         explorer: ARC_EXPLORER,
         nativeCurrency: ARC_NATIVE_CURRENCY,
         usdcAddress,

@@ -419,7 +419,7 @@ function getArcConfig() {
     const escrowContractAddress = ("TURBOPACK compile-time value", "0x84141727973c3A74844a51c058f199A82F12464f") || __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.ESCROW_CONTRACT_ADDRESS;
     return {
         chainId: ARC_CHAIN_ID,
-        rpcUrl: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_ARC_RPC_URL || __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.ARC_RPC_URL || ARC_RPC_URL,
+        rpcUrl: ("TURBOPACK compile-time value", "https://arc-mainnet.g.alchemy.com/v2/alch_0r9wEu1L4Sc0IH4Gf04eZ") || __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.ARC_RPC_URL || ARC_RPC_URL,
         explorer: ARC_EXPLORER,
         nativeCurrency: ARC_NATIVE_CURRENCY,
         usdcAddress,

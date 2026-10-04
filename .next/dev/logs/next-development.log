@@ -1,3 +1,7 @@
-{"timestamp":"00:00:33.220","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:02:14.050","source":"Server","level":"LOG","message":"○ Compiling / ..."}
-{"timestamp":"00:02:53.733","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:16.711","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:44.784","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:08:45.079","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:08:50.352","source":"Browser","level":"WARN","message":"Error restoring session o: Transport request timed out"}
+{"timestamp":"00:08:54.209","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mError restoring session\\u001b[39m\" \"\\u001b[31mo: Transport request timed out\\u001b[39m\\n\\u001b[31m    at <unknown> (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/scripts/inpage.js:7:84733)\\n    at <unknown> (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/scripts/inpage.js:7:83421)\\u001b[39m\" \"\\u001b[2m(chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/scripts/inpage.js:4:10741)\\u001b[22m\""}
+{"timestamp":"00:08:54.267","source":"Browser","level":"WARN","message":"Error restoring session o: Transport request timed out"}
+{"timestamp":"00:08:54.529","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mError restoring session\\u001b[39m\" \"\\u001b[31mo: Transport request timed out\\u001b[39m\\n\\u001b[31m    at <unknown> (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/scripts/inpage.js:7:84733)\\n    at <unknown> (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/scripts/inpage.js:7:83421)\\u001b[39m\" \"\\u001b[2m(chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/scripts/inpage.js:17:4697)\\u001b[22m\""}
