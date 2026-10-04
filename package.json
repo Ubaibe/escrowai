@@ -1,0 +1,49 @@
+{
+  "name": "escrowai-blockchain",
+  "version": "0.1.0",
+  "private": true,
+  "description": "EscrowAI smart-contract foundation",
+  "scripts": {
+    "compile": "hardhat --config blockchain/hardhat.config.ts --tsconfig blockchain/tsconfig.json compile",
+    "test": "hardhat --config blockchain/hardhat.config.ts --tsconfig blockchain/tsconfig.json test",
+    "test:coverage": "hardhat --config blockchain/hardhat.config.ts --tsconfig blockchain/tsconfig.json coverage",
+    "typecheck": "npm run typecheck:hardhat && npm run typecheck:next",
+    "typecheck:hardhat": "tsc --noEmit -p blockchain/tsconfig.json",
+    "typecheck:next": "tsc --noEmit -p tsconfig.json",
+    "deploy": "hardhat --config blockchain/hardhat.config.ts --tsconfig blockchain/tsconfig.json run blockchain/scripts/deploy.ts",
+    "deploy:arc": "hardhat --config blockchain/hardhat.config.ts --tsconfig blockchain/tsconfig.json run blockchain/scripts/deploy.ts --network arcMainnet",
+    "dev": "next dev",
+    "build": "npm run compile && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "autoprefixer": "^10.6.1",
+    "clsx": "^2.1.1",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0",
+    "hardhat": "^2.22.17",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.71.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.4",
+    "next": "^16.3.7",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "viem": "^2.57.0"
+  }
+}
